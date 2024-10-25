@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="Boostrap/css/bootstrap.min.css">
+    <script src="Boostrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-----bootstrap buttons--->
+<a href="index.html" class="btn btn-danger">Home</a>
+<a href="about.html" class="btn btn-dark">About</a>
+<a href="gallery.html" class="btn btn-outline-danger">Gallery</a>
+<a href="Lists.html" class="btn btn-warning">Lists</a>
+<a href="main.html" class="btn btn-outline-primary">Main</a>
+<a href="product.html" class="btn btn-secondary">Products</a>
+<a href="register.html" class="btn btn-outline-danger">Register</a>
+<a href="services.html" class="btn btn-success">Services</a>
+
+<!---creating a bootstrap grid system.
+ Spacing outside is margin----->
+
+<h3 class="text-center text-primary mt-5 mb-4" >Services Offered at ShopLenty</h3>
+
+<div class="row" >
+<!----arranging elements vertically.The total columns in a boostrap takes upto 12 columns in a row
+its the opposite of d-flex. Same up determining the space it should take--->
+    <div class="col-3" >
+        <img src="Assets/swimmingpool.jpg" alt="pool-icon" class="w-100 h-auto mb-4" >
+        <h2>Swimming Poll</h2>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid amet animi, atque consectetur, deserunt, distinctio earum eligendi exercitationem hic iste natus nihil quaerat rerum similique suscipit temporibus unde velit.</span><span>Animi distinctio error est libero mollitia nostrum officiis voluptates! Accusamus amet aperiam assumenda cum, distinctio doloribus dolorum enim exercitationem explicabo facere facilis hic
+            modi nesciunt ratione recusandae suscipit velit vitae.</span></p>
+
+        <!---making the button occupy the whole division of it contents. In other words an elongated button--->
+
+       <div class="d-grid">
+            <button class="btn btn-danger">More</button>
+       </div>
+
+
+    </div>
+
+    <div class="col-3" >
+        <img src="Assets/massage.jpg" alt="massage-icon" class="w-100 h-auto mb-5" >
+         <h2 >Massage Services</h2>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid amet animi, atque consectetur, deserunt, distinctio earum eligendi exercitationem hic iste natus nihil quaerat rerum similique suscipit temporibus unde velit.</span><span>Animi distinctio error est libero mollitia nostrum officiis voluptates! Accusamus amet aperiam assumenda cum, distinctio doloribus dolorum enim exercitationem explicabo facere facilis hic
+            modi nesciunt ratione recusandae suscipit velit vitae.</span></p>
+        <!---having an elongated button--->
+       <div class="d-grid">
+            <button class="btn btn-secondary">More</button>
+       </div>
+    </div>
+
+    <div class="col-3" >
+        <img src="Assets/gym1.jpg" alt="gym-icon" class="w-100 h-auto mb-4">
+         <h2>Gym Services</h2>
+        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid amet animi, atque consectetur, deserunt, distinctio earum eligendi exercitationem hic iste natus nihil quaerat rerum similique suscipit temporibus unde velit.</span><span>Animi distinctio error est libero mollitia nostrum officiis voluptates! Accusamus amet aperiam assumenda cum, distinctio doloribus dolorum enim exercitationem explicabo facere facilis hic
+            modi nesciunt ratione recusandae suscipit velit vitae.</span></p>
+<!---having an elongated button--->
+       <div class="d-grid">
+            <a href="services.html" class="btn btn-primary">More</a>
+       </div>
+
+    </div>
+
+
+    <div class="col-3 text-white" >
+        <img src="Assets/watch4.jpg" alt="gym-icon" class="w-100 h-auto mb-4">
+         <h2 class="text-warning">Watch Services</h2>
+        <p class="bg-success "><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid amet animi, atque consectetur, deserunt, distinctio earum eligendi exercitationem hic iste natus nihil quaerat rerum similique suscipit temporibus unde velit.</span><span>Animi distinctio error est libero mollitia nostrum officiis voluptates! Accusamus amet aperiam assumenda cum, distinctio doloribus dolorum enim exercitationem explicabo facere facilis hic
+            modi nesciunt ratione recusandae suscipit velit vitae.</span></p>
+
+       <!---having an elongated button--->
+       <div class="d-grid">
+            <button class="btn btn-warning">More</button>
+       </div>
+
+    </div>
+
+</div>
+
+<h1 class="mt-5 text-center">STUDENT FORM</h1>
+<!----form control is given to inputs which acts as a br tag----->
+<form action="" class="bg-info container  font-weight-bold p-4">
+    <label for="fname" class="form-label">Full Name</label>
+    <input class="form-control mb-4" type="text" id="fname" name="fullname" placeholder="Your full name.." required="required">
+
+    <label for="email" class="form-label">Email Address</label>
+    <input class="form-control mb-4" type="email" id="email" name="email" placeholder="Your email address.." required="required">
+
+    <label for="pwd" class="form-label">Password</label>
+    <input class="form-control mb-4" type="password" id="pwd" name="password" placeholder="Type password..." required="required">
+
+    <label for="year" class="form-label">Year of Study</label>
+    <select name="year" id="year" class="form-select mb-4">
+        <!-------->
+        <option value="" disabled="disabled">--choose year of study--</option>
+        <option value="">Year 1</option>
+        <option value="">Year 2</option>
+        <option value="">Year 3</option>
+        <option value="">Year 4</option>
+    </select>
+<!----submit is for posting or submitting to a database---->
+    <!---while reseting a password we use the reset option----->
+
+    <div class="d-grid">
+    <button type="submit" class="btn btn-danger mb-4">Submit</button>
+</div>
+
+
+</form>
+
+
+
+</body>
+</html>

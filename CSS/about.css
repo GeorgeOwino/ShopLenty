@@ -1,0 +1,16 @@
+body{
+    background-color: aliceblue;
+}
+h1  {
+    background-color: #221e1e;
+    color: #1047bc;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+h1:hover{
+    background-color: #dfed1a;
+}
+p{
+    font-size: 18px;
+}

@@ -1,0 +1,20 @@
+
+body {
+    background: #edd6d6;
+    margin-left: 40px;
+}
+h1 {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+
+.listing{
+    list-style-type: square;
+}

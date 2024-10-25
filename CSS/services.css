@@ -1,0 +1,138 @@
+body{
+    background-color: #edd6d6;
+}
+
+
+/*--to style an element using an id
+ attribute always begin with an # in order to be specific---*/
+
+#heading1{
+    font-family: Garamond;
+    text-align: center;
+    color: #7613d3;
+    font-weight: bold;
+}
+
+/* for styling a class we begin with a period first*/
+.para1{
+   font-size: 18px;
+    font-weight: bold;
+    font-family: Garamond;
+}
+.para2{
+    font-family: "Arial Black";
+    font-size: 18px;
+    color: #9127b5;
+}
+.para3{
+    font-family: Georgia, Times New Roman;
+    font-size: 18px;
+    color: #da105c;
+}
+#heading2{
+    text-align: center;
+    font-family: Garamond;
+    color: #1047bc;
+    text-decoration: underline;
+}
+/* styling the div section begin with an # */
+#mywatch{
+    background-color: #1047bc;
+    /*spacing outside */
+    margin: 50px;
+ /*spacing inside */
+    padding: 20px;
+}
+#mywatch:hover{
+    background-color: chocolate;
+}
+
+#watch2{
+    color: #0b0a0a;
+
+}
+#mywatch3{
+
+    font-family: Garamond;
+    background-color: yellowgreen;
+    margin: 30px;
+    padding: 20px;
+    /* using flex attribute for the image to lie
+     side by side*/
+    display: flex;
+    font-size: 20px;
+
+}
+.digi{
+    color: crimson;
+    font-family: "Bodoni MT Black";
+    text-align: center;
+}
+
+/* DISPLAYING THE paragraph on left side of the image */
+#mywatch3 p{
+    margin-left: 40px;
+
+} #mywatch3 img {
+    /*Any time you want an image in a circular shape, we use border radius */
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+  }
+
+  #mywatch3:hover{
+
+      background-color: gray;
+
+  }
+   /*styling the main div   */
+  #main {
+
+      display: flex;
+  }
+
+  /*styling the other divs embedded in the main div   */
+  #advert{
+      padding: 20px;
+      background-color:red ;
+      margin-left: 20px;
+      /*giving a glowing effect use box shadowing */
+      box-shadow: 8px 6px 12px 4px black;
+
+  }
+  /*centering the heading of the advert */
+#advert h2{
+    text-align: center;
+}
+  #accounts1{
+      background-color: #1f49ba;
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 20px;
+      /*giving a glowing effect use box shadowing */
+      box-shadow: 8px 6px 12px 4px red;
+
+  }
+  /*centering the heading of the accounts1 */
+#accounts1 h2{
+    text-align: center;
+}
+
+  #payments{
+      background-color: green;
+      padding: 20px;
+      margin-left: 20px;
+      /*giving a glowing effect use box shadowing */
+      box-shadow: 8px 6px 12px 4px red;
+
+  }
+  /*centering the heading of the payments*/
+  #payments h2{
+      text-align: center;
+  }
+  /*Giving a hovering effect to different div sections */
+#advert:hover, #accounts1:hover, #payments:hover{
+
+    background-color: greenyellow;
+
+}

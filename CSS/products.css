@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+
+h2{
+    text-decoration: underline; /*used to underline*/
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+
+}
+h3{
+    color: blue;
+    text-align: center;
+    font-size: 50px;
+
+}
+img{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+}
+img:hover{
+    opacity: 0.8;
+}
+/*styling the whole table giving it the values,style and color*/
+table,th,td {
+    border: 2px solid black;/*used to style the whole table*/
+    border-collapse: collapse;/*just a single line of border no double lines*/
+}
+/*adjusting the size of the table width and height*/
+table{
+    width: 70%;
+    height: 400px;
+    margin: auto; /*centering the table by giving it equal spacing both left and right outside*/
+    background-color: #d8bdc0;
+}
+/*-before stylin a class always put a period first*/
+.heading{
+    background-color: lightskyblue;
+}
+.content{
+    background-color: #dfed1a;
+}
+.watch{
+    background-color: #c6acdd;
+}
+td{
+    padding: 10px; /*spacing of the content in the cells of a  table data*/
+}
